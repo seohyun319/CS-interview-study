@@ -17,7 +17,7 @@
 - 각 노드의 왼쪽 자식은 부모보다 작고, 오른쪽 자식은 부모보다 큼
 - 중복된 노드가 없어야 함 (중복의 경우 노드에 count 값을 가지게 해 처리하는 게 호율적)
 - 왼쪽, 오른쪽 서브 트리 모두 또한 이진탐색트리임
-  <br>
+  <br><br>
   <img width=300 src="https://user-images.githubusercontent.com/66426083/157191153-87da9fc5-f816-44de-afd9-419071aee5f3.png"/>
 
 <br>
@@ -46,7 +46,7 @@
   - 자식이 없는 노드인 경우 그냥 삭제
   - 자식이 1개인 노드인 경우 자식 노드의 값으로 대체
   - 자식이 2개인 노드인 경우 왼쪽 서브 트리의 최대값 or 오른쪽 서브 트리의 최소값 중 하나로 대체
-    <br>
+    <br><br>
     <img width=600 src="https://user-images.githubusercontent.com/66426083/157184530-fa123c22-73bb-47c1-8fd6-56741f1053c8.png" />
 
 <br>
