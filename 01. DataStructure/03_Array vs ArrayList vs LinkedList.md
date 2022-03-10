@@ -38,6 +38,8 @@
     - index로 원하는 위치에 직접 접근 가능
 - 삽입/삭제 시 연속성 보장 위해 나머지 값을 전부 shift해줘야
 - 데이터가 예측 가능할 때 사용, 보편적으로 사용.
+    ![image](https://user-images.githubusercontent.com/76686872/157607652-14e6225d-2cb6-4a5f-b3d3-fc4070a6bc2a.png)
+
     
       
 
@@ -56,6 +58,8 @@
     - 검색/삽입/삭제 시 원하는 위치를 첫 번째 원소부터 따라가며 탐색해야 함 `O(N)`
 - array나 arrayList에서 index를 갖고 있기 때문에 검색이 빠르지만, LinkedList는 처음부터 살펴봐야하므로(순차) 검색에 있어서는 시간이 더 걸린다는 단점이 존재
 - 차례대로 읽을 때, 불규칙적으로 추가하거나 끊을 일이 많을 때 ^^
+    ![image](https://user-images.githubusercontent.com/76686872/157607730-78594101-57e0-4f41-b1de-c283a45350ff.png)
+
 
 ---
 
