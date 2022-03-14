@@ -15,7 +15,9 @@
     - 최소 힙 (Min Heap)
         : 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리
         
+        
     <img width="572" alt="1" src="https://user-images.githubusercontent.com/61955796/158214760-126c8881-f6bb-41bb-9170-0ac7c4eb3f17.png">
+
 
 * Heap의 구현
     - 배열 사용
@@ -34,6 +36,9 @@
     - 최대 힙에서의 삭제 연산은 최댓값을 가진 요소 == 루트 노드를 삭제하는 것
     - 삭제된 루트 노드에는 힙의 마지막 노드를 가져옴
     - 힙 재구성
+
+<img width="570" alt="1" src="https://user-images.githubusercontent.com/61955796/158215273-c15462af-de30-4faf-b9b3-3e656bd18146.png">
+
 
 * heapify
     - 주어진 데이터가 힙 성질을 만족하도록 만드는 함수
