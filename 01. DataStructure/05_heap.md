@@ -14,6 +14,8 @@
         : 부모 노드의 키 값이 자식 노드의 키 값보다 크거나 같은 완전 이진 트리
     - 최소 힙 (Min Heap)
         : 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리
+        
+    <img width="572" alt="1" src="https://user-images.githubusercontent.com/61955796/158214760-126c8881-f6bb-41bb-9170-0ac7c4eb3f17.png">
 
 * Heap의 구현
     - 배열 사용
