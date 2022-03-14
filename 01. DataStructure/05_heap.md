@@ -38,6 +38,7 @@
     - 힙 재구성
 
 <img width="570" alt="1" src="https://user-images.githubusercontent.com/61955796/158215273-c15462af-de30-4faf-b9b3-3e656bd18146.png">
+<img width="519" alt="2" src="https://user-images.githubusercontent.com/61955796/158215451-11722ae9-d9b7-4e89-b503-430fefb2e31a.png">
 
 
 * heapify
