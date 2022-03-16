@@ -33,6 +33,8 @@
     * 관계(Relation)를 맺고 있는 릴레이션 R1, R2가 있을 때 R2의 기본키를 참조하는 R1의 속성<br>
     * 다른 릴레이션의 기본키를 그대로 참조하는 속성의 집합<br><br>
 
+<img width="625" alt="화면 캡처 2022-03-16 214554" src="https://user-images.githubusercontent.com/61955796/158595755-2e39cd98-1472-4abc-a05e-c52f86c5e443.png"><br>
+
 참고: https://limkydev.tistory.com/108
 
 
