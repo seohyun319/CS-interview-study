@@ -10,7 +10,7 @@
         * RIGHT OUTER JOIN<br>
         * FULL OUTER JOIN<br>
         * CROSS JOIN<br>
-        * SELF JOIN<br>
+        * SELF JOIN<br><br>
     <img width="543" alt="화면 캡처 2022-03-17 012917" src="https://user-images.githubusercontent.com/61955796/158659607-a374222b-2491-4fca-9d5e-7bc00bdcdb31.png">
     <br><br>
 
@@ -39,7 +39,8 @@
     FROM EX_TABLE A
     LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
     </code>
-    </pre>
+    </pre><br>
+    <img width="333" alt="image" src="https://user-images.githubusercontent.com/61955796/158660280-9c9a09fc-255d-4a79-a1c4-ef19dfde95c1.png">
     <br><br>
 
 * RIGHT OUTER JOIN (오른쪽 외부 조인)<br>
@@ -53,7 +54,8 @@
     FROM EX_TABLE A
     RIGHT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
     </code>
-    </pre>
+    </pre><br>
+    <img width="304" alt="image" src="https://user-images.githubusercontent.com/61955796/158660382-343489ac-f757-4d1c-94f4-c3bc4305bb09.png">
     <br><br>
 
 * FULL OUTER JOIN (완전 외부 조인)<br>
@@ -66,7 +68,8 @@
     FROM EX_TABLE A
     FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
     </code>
-    </pre>
+    </pre><br>
+    <img width="320" alt="image" src="https://user-images.githubusercontent.com/61955796/158660494-ade36b02-60ec-4043-8f25-26f2a9782f9d.png">
     <br><br>
 
 * CROSS JOIN (교차 조인)<br>
@@ -80,7 +83,8 @@
     FROM EX_TABLE A
     CROSS JOIN JOIN_TABLE B
     </code>
-    </pre>
+    </pre><br>
+    <img width="308" alt="image" src="https://user-images.githubusercontent.com/61955796/158660590-eaedb25a-91ee-4de4-9201-b5a5c0b1bfb5.png">
     <br><br>
     
 * SELF JOIN (셀프 조인)<br>
@@ -93,6 +97,7 @@
     A.NAME, B.AGE
     FROM EX_TABLE A, EX_TABLE B
     </code>
-    </pre>
+    </pre><br>
+    <img width="302" alt="image" src="https://user-images.githubusercontent.com/61955796/158660674-615b3986-c174-436c-acc3-60eb899b5692.png">
     <br><br>
 
