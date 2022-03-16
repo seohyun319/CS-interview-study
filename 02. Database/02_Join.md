@@ -24,7 +24,8 @@
     FROM EX_TABLE A
     INNER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
     </code>
-    </pre>
+    </pre><br>
+    <img width="343" alt="image" src="https://user-images.githubusercontent.com/61955796/158660088-ee813c70-c542-4734-a376-7e53b0a849e1.png"><br>
     <br><br>
 
 * LEFT OUTER JOIN (왼쪽 외부 조인)<br>
