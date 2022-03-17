@@ -7,3 +7,7 @@
 - 벌점: 무단결석 -4, 무단지각 -2, 결석 -2, 지각 -1, 발표/시험지 제작X -3
 - 벌금: 벌점 당 1000원
 - 무단 기준: 일주일 전 통보
+
+<a href="https://github.com/seohyun319/CS_I/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=seohyun319/CS_I/" />
+</a>
