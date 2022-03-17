@@ -12,8 +12,11 @@ injection
 > 
 - 공격에 성공하게 되면 조직 내부의 민감한 데이터나 개인 정보를 획득 가능
 - 심각한 경우에는 조직의 데이터 전체를 장악하거나 완전히 손상시킬 수 있음.
+<br>
 
 ---
+
+<br>
 
 ## SQL Injection의 동작 원리 및 공격 방법
 
@@ -21,11 +24,12 @@ injection
 
 - 정상적인 로그인 요청 수행 과정
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73e6b775-99aa-47e3-a82d-6e955d3e99e1/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/76686872/158479771-9d0f60f3-91e7-4ee9-afdc-cb334bc97c6a.png)
+
     
 - SQL Injection을 통한 로그인 우회
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad87ee7d-e30c-44fe-8c75-93b0e767103d/Untitled.png)
+
+    ![image](https://user-images.githubusercontent.com/76686872/158479827-e37ac8b7-bf0c-47df-9794-84aa0abfe6c4.png)
     
 - 논리적 에러 이용
     - 로그인 시 유저가 input 창에 아이디, 비밀번호 입력 시 다음 쿼리문 전송됨
@@ -54,12 +58,12 @@ injection
 ### 2) 새로운 데이터베이스 명령문 실행
 
 - 정상적인 게시글 조회 요청 수행 과정
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb7bae14-2e1e-451c-85da-699153f08c67/Untitled.png)
+
+    ![image](https://user-images.githubusercontent.com/76686872/158479892-1bf855f1-6183-4f92-b50e-e80ee9e5b11d.png)
     
 - SQL Injection을 통한 악의적 명령 실행
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/581072a0-4692-4534-b477-7f873741813d/Untitled.png)
+
+    ![image](https://user-images.githubusercontent.com/76686872/158479924-9dc93249-5e78-4c8c-a2da-e7b8a3b746b2.png)
     
 - 콜론(;)을 이용해 다른 쿼리문 함께 입력
     - 콜론으로 명령어 연결해 한 줄로 된 두 개 이상의 명령어 연속 기입 가능
@@ -79,8 +83,11 @@ injection
 시스템에서 발생하는 에러 메시지를 이용해 공격하는 방법. 
 
 e.g.) 해커는 **GET 방식으로 동작하는 URL의 쿼리 스트링을 추가해 에러를 발생**시킴. 이에 해당하는 오류가 발생하면, 해당 웹앱의 데이터베이스 구조를 유추 가능해 해킹에 활용
+<br>
 
 ---
+
+<br>
 
 ## **방어 방법**
 
@@ -101,9 +108,11 @@ e.g.) 해커는 **GET 방식으로 동작하는 URL의 쿼리 스트링을 추�
 Prepared Statement 구문: 외부 입력 값이 SQL 구문의 구조를 변경하지 못하게 정해진 구조로 처리. 사용자의 입력(?에 들어가는 데이터)을 문자열로 취급하여 공격 쿼리가 들어와도 단순 문자열로 인식되어 인젝션이 무효화됨. 
 
 `INSERT INTO MyGuests VALUES(?, ?, ?)`
+<br>
 
 ---
 
+<br>
 참고 링크
 
 - [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/SQL%20Injection.md)
