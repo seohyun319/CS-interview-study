@@ -21,7 +21,7 @@
 
 * 데이터베이스의 일관성 유지가 불가능함 -> 정합성에 문제가 많음
 
-(이미지)  
+![image](https://user-images.githubusercontent.com/65678579/158745098-3418c463-6bb5-4cb1-bc60-bf36175e3ab7.png)
 
 <br>
 <br>
@@ -33,6 +33,8 @@
 * Commit된 트랜잭션만 조회 가능   
 * SQL 서버의 Default Isolation level
 
+![image](https://user-images.githubusercontent.com/65678579/158745219-5a42d8c9-3150-41cd-beba-ab6156ce9c5b.png)
+
 
 <br>
 <br>
@@ -43,6 +45,9 @@
 
 * 트랜잭션이 범위 내에서 조회한 데이터 내용이 항상 동일함을 보장함.  
 다른 사용자는 트랜잭션 영역에 해당하는 데이터에 대해 수정이 불가능 
+
+![image](https://user-images.githubusercontent.com/65678579/158745261-2d1cb918-67d8-430e-9861-eab6966854c4.png)
+
 
 * PHANTOM READ
 다른 트랜잭션에서 수행한 변경 작업에 의해 레코드가 보였다가 안 보였다가 하는 현상으로 이를 방지하기 위해서는 쓰기 잠금을 걸어야 한다.
