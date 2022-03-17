@@ -62,6 +62,7 @@
 다른 사용자는 트랜잭션 영역에 해당되는 데이터에 대해 수정 및 입력이 불가능함.  
 
 <br> 
+<br>
 
 ### 🔗참고링크  
 [Link](https://nesoy.github.io/articles/2019-05/Database-Transaction-isolation)
