@@ -14,7 +14,7 @@ Data Structure - Hash
 
 3. 다음 해시테이블을 보고 각각을 지칭하는 명칭을 쓰시오.
 
-키          해싱    (        ) (             )
+       키          해싱    (        ) (             )
 <img width="413" alt="image" src="https://user-images.githubusercontent.com/66426083/158803826-634cf685-23ff-433b-8cf8-0d2a50fcfc22.png">
 
         
