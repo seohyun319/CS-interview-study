@@ -1,4 +1,5 @@
 4번. 다음의 이진 트리에 대하여 답하시오.<br>
+![image](https://user-images.githubusercontent.com/61955796/158809576-fa1bca3a-5c11-4d99-ae9a-22fbbe65e8f5.png)<br><br>
 
 
 (1) 루트 노드: 6<br>
@@ -24,6 +25,7 @@
 중위순회: E, D, B, A, G, F, H, C<br>
 
 답: <br>
+<img width="140" alt="화면 캡처 2022-03-17 213652" src="https://user-images.githubusercontent.com/61955796/158809920-d90d468e-5aa3-465c-b911-53f97570a2cd.png">
 
 
 
