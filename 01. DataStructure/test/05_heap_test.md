@@ -8,7 +8,7 @@
 2번. 77을 루트로 잡고 다음 숫자들로 Heap을 그려보시오.<br>
 [77, 66, 55, 44, 60, 33, 55]<br>
 
-답:
+답:<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
