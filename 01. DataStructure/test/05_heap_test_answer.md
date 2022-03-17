@@ -20,4 +20,4 @@
 답: <br>
 왼쪽 자식 index = (부모 index) * 2 <br>
 오른쪽 자식 index = (부모 index) * 2 + 1<br>
-부모 index = (자식 index) / 2 <br>
+부모 index = (자식 index) / 2 <br> 
