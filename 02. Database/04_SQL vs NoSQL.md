@@ -15,7 +15,7 @@ SQL 사용 시 RDBMS(Relational DataBase Management System, 관계형 데이터�
 
 데이터의 중복을 피하기 위해 '관계'를 이용
 
-[https://camo.githubusercontent.com/bae679bdbfc1e5830290916f4ec5d88f8510985deb175233a59316be71c85aa7/68747470733a2f2f74312e6461756d63646e2e6e65742f6366696c652f746973746f72792f393934443039333535433933374543443244](https://camo.githubusercontent.com/bae679bdbfc1e5830290916f4ec5d88f8510985deb175233a59316be71c85aa7/68747470733a2f2f74312e6461756d63646e2e6e65742f6366696c652f746973746f72792f393934443039333535433933374543443244)
+<img src="https://user-images.githubusercontent.com/76686872/158721448-bac38394-cb77-4ce1-aed3-6dd7a0910b4b.png" width="500px"/>
 
 하나의 테이블에서 중복 없이 하나의 데이터만을 관리 → 다른 테이블에서 부정확한 데이터를 다룰 위험이 없어지는 장점
 
@@ -66,4 +66,10 @@ NoSQL에는 조인 개념 없음 → 조인하고 싶으면?
 확장 (Scaling) | 수직적 확장만 가능 | 수직 및 수평 확장 가능 → 모든 읽기/쓰기 요청 처리 가능😀 |
 사용 적합 환경 | ■ 관계를 맺고 있는 데이터가 자주 변경 O <br />■ 명확한 스키마가 사용자, 데이터에게 중요하고 변경될 여지 X | ■ 읽기는 자주 하는데 데이터 변경은 자주 X <br />■ 정확한 데이터 구조 알 수 X, 데이터 구조 변경/확장 가능성 O <br />■ 막대한 양의 데이터 다룸 (수평 확장) |   
 단점 없애기 | 복잡한 JOIN문 만들지 않도록 설계 | 중복 데이터 줄이는 방법으로 설계
+<br />
+
+---
+
+<br />
+참고 - [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/SQL%EA%B3%BC%20NOSQL%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
