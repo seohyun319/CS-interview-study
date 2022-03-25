@@ -4,7 +4,8 @@
 답: 슈퍼키<br><br>
 
 2. 각 키의 관계도를 그리시오<br>
-답:<br><br><br>
+답:![image](https://user-images.githubusercontent.com/61955796/160052091-d51d42ee-0f4c-43eb-8666-1a63658cebb7.png)
+<br>
  
 
 3. 후보키의 속성 두 개와 그 의미를 서술하시오.<br>
