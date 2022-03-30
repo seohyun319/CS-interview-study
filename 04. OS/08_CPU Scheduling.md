@@ -93,7 +93,7 @@
     - 짧은 수행시간 프로세스 우선 수행
 3. **다단계 큐 (Multi Level Queue)**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93ce3c82-1d46-4930-8053-410fd668be5c/Untitled.png)
+    ![Untitled (1)](https://user-images.githubusercontent.com/61955796/160862180-ffb59044-619a-4111-895d-940ebc4f6698.png)
     
     - 작업들을 여러 종류 그룹으로 분할
     - 여러 개의 큐를 이용하여 상위단계 작업에 의한 하위단계 작업이 선점 당함
@@ -101,7 +101,7 @@
     - 독립된 스케줄링 큐
 4. **다단계 피드백 큐 (Multi Level Feedback Queue)**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/05332d84-72ac-401f-b24b-629365d610e1/Untitled.png)
+    ![Untitled (2)](https://user-images.githubusercontent.com/61955796/160861935-3d277685-0571-4bba-bc5a-b7fd8a0c847d.png)
     
     - 입출력 위주와 CPU 위주인 프로세스의 특성에 따라 큐마다 서로 다른 CPU 할당량 부여
     - FIFO와 라운드 로빈 스케줄링 기법을 혼합한 것
@@ -138,16 +138,15 @@
 
 1. **Round Robin**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8f51f47-bc2f-44e3-b203-2719cca82ef5/Untitled.png)
+    <img width="599" alt="Untitled (3)" src="https://user-images.githubusercontent.com/61955796/160861977-09ef69e0-c0cd-4571-9744-b9bca6bf0ab2.png">
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7a5181c-07b4-4cf1-90b5-de61364628ae/Untitled.png)
+    <img width="598" alt="Untitled (4)" src="https://user-images.githubusercontent.com/61955796/160862032-5e95ff67-96ea-496b-baf1-71dcbcf89617.png">
     
 2. **SRT (Shortest Remaining Time First)**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4ca666f-bc01-42d0-8dbc-6891b52e3364/Untitled.png)
+    <img width="599" alt="Untitled (5)" src="https://user-images.githubusercontent.com/61955796/160862074-79f6d62a-5b3e-4871-a0ef-93ff1fd8fc1a.png">
     
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34491c51-0754-4456-817a-b590b61a4e72/Untitled.png)
+    <img width="606" alt="Untitled (6)" src="https://user-images.githubusercontent.com/61955796/160862108-8161de9d-7a53-4174-a213-7c8d8c980585.png">
 
 참조
 
