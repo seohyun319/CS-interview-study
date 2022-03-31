@@ -2,7 +2,7 @@
 
 > 프로그램이 CPU에 의해 실행됨 → 프로세스가 생성되고 메모리에 '**프로세스 주소 공간**'이 할당됨
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39ce2158-1e96-455a-b99b-6904a8df8b29/Untitled.png)
+![image](https://user-images.githubusercontent.com/76686872/160980538-70658fd5-6c4b-4b0b-9f4c-7a923b0842cb.png)
 
 - **코드(text) Segment** : 프로그램 소스 코드 저장.
 - **데이터Data Segment** : 초기값 있는 전역 변수, 배열, 정적 변수 저장 (항상 접근 가능한 변수들 저장)
