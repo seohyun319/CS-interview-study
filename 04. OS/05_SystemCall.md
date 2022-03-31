@@ -6,13 +6,13 @@ Process 생성과 제어를 위한 System call
 새로운 proess를 생성할 때, 동일한 process의 내용을 여러 번 동작할 때 사용
 - PID : process 식별자로, UNIX 시스템에서 PID는 process에게 명령할 때 사용
 
-**fork()** 가 실행되면 process(child)가 하나 더 생긴다. 이 때 process(child)는 fork를 만든 process(parent)와 **거의** 동일한 복사본을 갖게 된다.
-이 때 OS는 똑같은 2개의 프로그램이 동작한다고 생각하고, fork()가 return될 차례라고 생각한다. 
-따라서 **새로 생성된 process(child)는 main에서 시작하지 않고 if문부터 시작하게 된다.**
-그렇게 때문에 Child process와 parent process의 fork()값은 다르기 때문에, **완전히 동일한 복사본이라고 할 수 없다.**
+- **fork()** 가 실행되면 process(child)가 하나 더 생긴다. 이 때 process(child)는 fork를 만든 process(parent)와 **거의** 동일한 복사본을 갖게 된다.
+- 이 때 OS는 똑같은 2개의 프로그램이 동작한다고 생각하고, fork()가 return될 차례라고 생각한다. 
+- 따라서 **새로 생성된 process(child)는 main에서 시작하지 않고 if문부터 시작하게 된다.**
+- 그렇게 때문에 Child process와 parent process의 fork()값은 다르기 때문에, **완전히 동일한 복사본이라고 할 수 없다.**
     -  parent의 fork()값 : child의 pid
     -  child의 fork()값 : 0
-하지만 scheduler가 parent와 child 중 어느것을 먼저 수행할지 알 수 없다. (parent와 child의 순서는 non-deterministic)
+- 하지만 scheduler가 parent와 child 중 어느것을 먼저 수행할지 알 수 없다. (parent와 child의 순서는 non-deterministic)
 
 
 ## wait
