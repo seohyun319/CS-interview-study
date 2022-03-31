@@ -28,3 +28,6 @@ Child process에서 parent process와 다른 동작을 하고 싶을 때 사용
 이후 heap, stack, 다른 메모리 영역이 초기화, OS는 그냥 실행
 -> 새로운 process를 생성하지 않고 현재 프로그램에 wc 파일을 실행 
 따라서 execvp() 이후 부분은 실행되지 않는다.
+
+
+코드 예제 : https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Operating%20System/%5BOS%5D%20System%20Call%20(Fork%20Wait%20Exec).md
