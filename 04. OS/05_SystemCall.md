@@ -3,7 +3,7 @@ Process 생성과 제어를 위한 System call
 - wait() : Process(parent)가 만든 다른 Process(child)가 끝날 때까지 기다리는 명령어
 
 ## fork
-새로운 proess를 생성할 때 사용, 동일한 process의 내용을 여러 번 동작할 때 사용
+새로운 proess를 생성할 때, 동일한 process의 내용을 여러 번 동작할 때 사용
 - PID : process 식별자로, UNIX 시스템에서 PID는 process에게 명령할 때 사용
 
 **fork()** 가 실행되면 process(child)가 하나 더 생긴다. 이 때 process(child)는 fork를 만든 process(parent)와 **거의** 동일한 복사본을 갖게 된다.
