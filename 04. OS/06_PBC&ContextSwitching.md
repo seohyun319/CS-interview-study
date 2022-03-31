@@ -1,7 +1,7 @@
-**Process Management** : CPU에 Process가 여러개일 때 CPU 스케쥴링을 통해 관리하는 것
+- **Process Management** : Process가 여러개일 때 CPU 스케쥴링을 통해 관리하는 것
   - 이 때 CPU는 각  process들이 누군지 알아야 관리가 가능
 
-**Process Metadata** : Process들의 특징을 갖고 있는 것 (process 구분)
+- **Process Metadata** : Process들의 특징을 갖고 있는 것 (process 구분)
   - Process ID
   - Process State
   - Process Priority
@@ -10,7 +10,7 @@
   - CPU Usage
   - Memeory Usage
 
-**PCB (Process Control Block)** : Process가 생성될 때, process metadata가 저장되는 곳
+- **PCB (Process Control Block)** : Process가 생성될 때, process metadata가 저장되는 곳
 
 단계 : 프로그램 실행 → 프로세스 생성 → 프로세스 주소 공간에 (코드, 데이터, 스택) 생성 → 이 프로세스의 메타데이터들이 **PCB에 저장**
 
