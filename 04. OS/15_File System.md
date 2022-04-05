@@ -1,3 +1,5 @@
+<h2>파일 시스템</h2>
+
 ---
 
 ### 🍀 *개념*
@@ -36,7 +38,7 @@
 - **순차 접근 (Sequential Acess)**
     - 가장 간단한 접근 방법으로 대부분의 연산은 read, write로 이루어진다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04ee364c-39a7-4628-a30a-823486bc684a/Untitled.png)
+    <img width="720" alt="1" src="https://user-images.githubusercontent.com/61955796/161659098-1c59de34-605b-4db0-b63a-17e9ff4fd3bb.png">
     
     - 현재 위치를 가리키는 포인터에서 시스템 콜이 발생할 경우에 포인터를 앞으로 보내면서 read와 write를 진행한다.
     - 뒤로 돌아갈 땐 지정해둔 offset만큼 되감기를 한다.
@@ -44,7 +46,7 @@
 - **직접 접근 (Direct Access)**
     - 특별한 순서 없이 빠르게 레코드를 read, wirte할 수 있다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc58159c-6ab8-48b0-8379-5d9b696e94b3/Untitled.png)
+    <img width="712" alt="2" src="https://user-images.githubusercontent.com/61955796/161659119-d2f0c918-5643-4aa3-9871-d8c339fecb5d.png">
     
     - 현재 위치를 가리키는 cp 변수만 유지하면 직접 접근 파일을 가지고 순차 파일 기능을 구현할 수 있다.
     - 무작위 파일 블록에 대한 임의의 접근을 허용하기에 순서의 제약이 없다.
@@ -53,7 +55,7 @@
 - **기타 접근**
     - 직접 접근 파일에 기반하여 색인을 구축하는 방법이다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e002124b-bfce-4337-9b39-61c42c3eabf2/Untitled.png)
+    <img width="728" alt="3" src="https://user-images.githubusercontent.com/61955796/161659144-aae9b74d-3c4c-4cb3-b783-4a29e80caf7e.png">
     
     - 크기가 큰 파일을 입출력 탐색할 수 있게 도와주는 방법이다.
 
@@ -68,7 +70,7 @@
     - 모든 파일이 유일한 이름을 가져야 하며 다른 사용자라도 같은 이름 사용이 불가하다.
     - 다수의 사용자가 사용하거나 파일의 수가 증가할 때 관리가 어렵다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f1b4234-1e93-4d3d-94ef-4a8a4e2fa8a6/Untitled.png)
+    <img width="846" alt="4" src="https://user-images.githubusercontent.com/61955796/161659161-30da63f2-d97b-410c-8833-218ed6eee1f4.png">
 
 - **2단계 디렉터리**
     - 중앙에 마스터 파일 디렉터리(MFD)가 있고 그 아래에 각 사용자에게 할당하는 디렉터리(UFD)가 있는 구조
@@ -76,7 +78,7 @@
     - 사용자는 각자 디렉터리를 가지므로 다른 사용자와 같은 이름의 파일을 소지할 수 있다.
     - 사용자마다 디렉터리가 독립적이기 때문에 파일을 공유할 수 없다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/82fae959-c15b-4180-9771-37845bc38983/Untitled.png)
+    <img width="915" alt="5" src="https://user-images.githubusercontent.com/61955796/161659176-a8455a0f-ee35-48ae-8a81-8c828d3ad5a5.png">
     
 - **트리 구조 디렉터리**
     - 2단계에서 확장된 다단계 트리 구조
@@ -86,7 +88,7 @@
         - 절대 경로: 루트 디렉터리를 기준으로 함
         - 상대 경로: 현재 디렉터리를 기준으로 함
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d35902be-e909-4a72-8691-339e897b6742/Untitled.png)
+    <img width="774" alt="6" src="https://user-images.githubusercontent.com/61955796/161659195-1cd8a69c-d110-40c2-b408-8982bc2dcfd2.png">
     
 - **그래프 구조 디렉터리**
     - 순환이 발생하지 않도록 하위 디렉터리가 아닌 파일에 대한 링크만 허용한다.
@@ -94,4 +96,4 @@
         - 가비지 컬렉션: 제거된 파일의 디스크 공간 확보를 위해 사용
     - 파일이나 디렉터리 공유가 가능하다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14a405e9-5e84-4a7f-8994-d48258577fe0/Untitled.png)
+    <img width="773" alt="7" src="https://user-images.githubusercontent.com/61955796/161659211-e7367f45-e324-47e6-b86a-d30807e72251.png">
