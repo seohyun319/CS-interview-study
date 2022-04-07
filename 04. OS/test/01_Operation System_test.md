@@ -7,13 +7,8 @@ OS - Operating System
 
 <br>	
   
-&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; : 일정 시간 내에 시스템이 처리하는 일의 양
+<img width="626" alt="image" src="https://user-images.githubusercontent.com/66426083/162187231-89b240ae-a4ca-4ed9-903c-7448436a897d.png">
 
-반환시간(Turn Around Time) :
-
-사용가능도(Availability)	:
-	
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; : 시스템이 주어진 문제를 정확하게 해결하는 정도
 
 
 
