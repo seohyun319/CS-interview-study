@@ -10,6 +10,9 @@
 
 </aside>  
 
+### 일정 및 벌금 정리
+[👉🏻스터디 칸반보드👈🏻](https://github.com/seohyun319/CS_I/projects/3)
+
 
 ### 스터디 일정 및 장소
 
