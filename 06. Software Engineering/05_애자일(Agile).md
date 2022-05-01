@@ -7,7 +7,8 @@
 - 고객 대표를 직접적으로 개발 프로세스에 참여시킴
 - 테스트 주도 개발(TDD)을 사용
 - *간소한 계획*과 *유연한 대처*를 추구
-<img src="https://miro.medium.com/max/1400/1*JtXRtNCkCBKrm6C7MmER4Q.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+
+<br><img src="https://miro.medium.com/max/1400/1*JtXRtNCkCBKrm6C7MmER4Q.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"/><br>
 
 <br>
 
