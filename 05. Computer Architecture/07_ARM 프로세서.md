@@ -16,10 +16,12 @@
     이러한 특성은 스마트폰, 랩탑, 태블릿, 기타 임베디드 시스템과 같은 **가볍고 휴대가능한 베터리 전원 장치에 바람직**하지만 서버와 데스크탑에도 어느정도 유용하다.
     
     주로 **모바일 기기** 또는 **IoT 디바이스**에 많이 사용한다.
+
+<br>
     
 - **구조**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2fe45b5-8b26-46de-a50d-9f276a9b3db1/Untitled.png)
+    ![Untitled (14)](https://user-images.githubusercontent.com/61955796/166140777-6e0bdd61-3d57-4110-bcc3-274bdfb924c2.png)
     
     칩의 기본 설계 구조만 만들고, 실제 기능 추가와 최적화 부분은 개별 반도체 제조사의 영역으로 맡기기에 물리적 설계는 같아도, ARM 속의 명령 집합이 모두 다를 수 있다. 따라서 같은 ARM일지라도 서로 다른 칩이 되기도 한다. 
     
