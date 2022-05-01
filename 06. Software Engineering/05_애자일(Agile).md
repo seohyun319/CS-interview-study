@@ -30,7 +30,6 @@
   <br><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile21.uf.tistory.com%2Fimage%2F214EE04E58A2A65C155D51"><br>
 2. 익스트림 프로그래밍
   - 시나리오를 가지고 이루어지는 점증적 테스트 개발로 테스트우선 개발(TDD)을 특징으로 함
-  - 시나리오르 가지고 이루어지느 점증적 테스트 개발
   - 테스트 개발 및 검증 과정에서 사용자 참여
   - 테스트 자동화 프레임워크를 사용
 
