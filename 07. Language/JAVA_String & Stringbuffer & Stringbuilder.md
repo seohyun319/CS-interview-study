@@ -19,7 +19,7 @@ str = str + " world";  // [ hello world ]
 
 **String 클래스는 불변하기 때문에 문자열을 수정하는 시점에 새로운 String 인스턴스가 생성된 것이다.**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbde5b24-dd75-4a09-8eba-45ff8a4aa5a6/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/61955796/166498359-215ccaa3-8ec0-438d-92b9-b9dc849cc26b.png)
 
 ### ⏩ **String 특징**
 
@@ -39,7 +39,7 @@ StringBuffer sb= new StringBuffer("hello");
 sb.append(" world");
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cbd348d-dda2-4117-a402-f596637eaae0/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/61955796/166498407-a31b787f-2971-4376-adc8-646f6d67e7a0.png)
 
 ## ⏩ StringBuffer vs StringBuilder
 
@@ -65,4 +65,4 @@ StringBuffer와 StringBuilder의 공통점은 다음과 같다.
 
 **StringBuilder**   :  문자열 연산이 많고 단일쓰레드이거나 동기화를 고려하지 않아도 되는 경우
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6834685-b331-4b44-b32c-856eefc5e670/Untitled.png)
+![Untitled (3)](https://user-images.githubusercontent.com/61955796/166498476-c958d66c-28b4-48af-a36e-64612b9473ea.png)
