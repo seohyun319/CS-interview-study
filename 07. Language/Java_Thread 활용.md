@@ -68,6 +68,7 @@ Thread를 상속한 경우 실행 시 start() 메소드를 실행시켜야한다
 |일시 정지|    TIMED_WAITING|	주어진 시간 동안 기다리는 상태
 |일시 정지|BLOCKED|	사용하고자 하는 객체의 락이 풀릴 때까지 기다리는 상태
 |종료	|TERMINATED|	실행을 마친 상태|
+<br>
 또한 이런 스레드의 상태는 Thread를 상속하는 StatePrintThread 클래스를 이용해 출력할 수 있다.<br>
 ``` java
 Thread.State state = targetThread.getState(); //스레드 상태 얻기
