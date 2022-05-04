@@ -8,9 +8,10 @@
    스레드 구현 방법에는 2가지가 있다<br>
    1. Runnable 인터페이스 구현
    2. Thread 클래스 상속
-<br>
-      둘다 run() 메서드를 오버라이드한다.
-``` java
+   <br>
+   둘다 run() 메서드를 오버라이드한다.
+      
+   ``` java
 public class MyThread implements Runnable {
     @Override
     public void run() {
@@ -29,10 +30,12 @@ public class MyThread implements Runnable {
         Thread t = new Thread(r, "mythread");
     }
 }
-```
-Runnable을 임포트 한 경우 해당 클래스를 인스턴스화해서 Thread 생성자에 argument로 넘겨줘야 한다.
-run()을 호출하면 Runnable 인터페이스에서 구현한 run()이 호출되므로 따로 오버라이딩하지 않아도 된다.
-``` java
+   ```
+
+   Runnable을 임포트 한 경우 해당 클래스를 인스턴스화해서 Thread 생성자에 argument로 넘겨줘야 한다.<br>
+   run()을 호출하면 Runnable 인터페이스에서 구현한 run()이 호출되므로 따로 오버라이딩하지 않아도 된다.
+
+   ``` java
 public class MyThread extends Thread {
     @Override
     public void run() {
@@ -47,7 +50,8 @@ public class MyThread extends Thread {
         thread1.start();
     }
 }
-```
+   ```
+
 Thread를 임포트 하면 위의 수행 코드부분과 같이 Thread의 getName() 메서드를 바로 호출해서 쓸 수 있지만 Runnable에서는 currentThread()를 통해 메서드를 호출해야한다.
 <br>
 Thread를 상속한 경우 실행 시 start() 메소드를 실행시켜야한다. 이때 run() start()는 모두 같은 작업을 하지만 run()은 main()의 콜 스택 하나만 이용하는 것과 다르게 start()는 Thread를 위한 새로운 콜스택을 생성한다는 점에서 차이가 있다.
@@ -167,7 +171,7 @@ System.out.println("타켓 스레드 상태: " + state);
             }
       }
    ```
-   <br><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbyYWfO%2FbtqV2a71EgF%2FOdL9uMK8nGIxo2s4ElMElk%2Fimg.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"/><br>
+   <br><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbyYWfO%2FbtqV2a71EgF%2FOdL9uMK8nGIxo2s4ElMElk%2Fimg.png" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"/><br>
    synchronized 키워드로 임계영역을 지정하면
    
    ```java
