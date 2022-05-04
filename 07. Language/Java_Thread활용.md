@@ -225,4 +225,5 @@ System.out.println("타켓 스레드 상태: " + state);
       ```
 <br>
 
+
 참고: https://scshim.tistory.com/243#:~:text=%ED%94%8C%EB%9E%98%EA%B7%B8%2C%20interrupt()-,%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98%20%EC%83%81%ED%83%9C,%EC%8B%A4%ED%96%89%20%EB%8C%80%EA%B8%B0%20%EC%83%81%ED%83%9C%EA%B0%80%20%EB%90%9C%EB%8B%A4.&text=%EC%8B%A4%ED%96%89%20%EB%8C%80%EA%B8%B0%20%EC%83%81%ED%83%9C%EC%97%90%20%EC%9E%88%EB%8A%94,(Running)%20%EC%83%81%ED%83%9C%EB%9D%BC%EA%B3%A0%20%ED%95%9C%EB%8B%A4.
