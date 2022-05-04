@@ -113,6 +113,54 @@ if let name = myName, let friend = yourName {
 - 나열한 모든 조건이 통과되어야 안으 구문이 실행된다. (하나라도 nil인 경우 false로 떨어짐)
 
 
+### 옵셔널 체인
+```swift
+class Person {
+   var name: String
+   var job: String?
+   var home: Apartment?
+   
+   init(name: String) {
+      self.name = name
+   }
+}
+
+class Apartment {
+   var buildingNumber: String
+   var roomNumber: String
+   var `guard`: Person?
+   var owner: Person?
+   
+   init(dong: String, ho: String) {
+      buildingNumber = dong
+      roomNumber = ho
+   }
+}
+```
+- \`guard\`는 키워드이므로 \`\`를 붙여줘야 함.
+
+❓nil인지 아닌지 체크 해야 할 값이 여러개라면 어떻게 해야할까?
+```swift
+func guardJob(owner: Person?) {
+   if let owner = owner {
+      if let home = owner.home {
+         if let `guard` = home.guard {
+            if let guardJob = `guard`.job{
+               print("체크 완료")
+            }else{
+               print("nil값 존재")
+            }
+         }
+      }
+   }
+}
+```
+- 일일이 바인딩을 중첩해야 해서 굉장히 코드가 길어지게 됨
+
+`owner?.home?.guard?.job`
+
+
+
 #### 참고
 28기 SOPT iOS 파트장님 기초 문법 강의자료
 
