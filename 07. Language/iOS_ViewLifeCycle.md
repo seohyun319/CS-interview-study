@@ -32,7 +32,7 @@ navigation controller는 stack과 같이 동작한다.
 
 ### 4. viewWillDisappear()
 - 뷰가 사라지기 직전에 호출되는 함수
-- 뷰가 삭제 되려고 하느 것을 뷰 컨트롤러에 통지
+- 뷰가 삭제 되려고 하는 것을 뷰 컨트롤러에 통지
 
 ### 5. viewDidDisappear()
 - 뷰 컨트롤럴 뷰가 제거되었음을 알려줌
