@@ -1,6 +1,6 @@
 ## 이분탐색
  
-> 정렬되어있는 배열에서 탐색 범위를 절반씩 줄여나가며 찾는 Search 방법이다.
+> 정렬되어있는 배열에서 탐색 범위를 절반씩 줄여나가며 찾는 Search 방법이다. 시간 복잡도: O(log n)
  
 <br>
 
@@ -10,11 +10,6 @@
 3. left >right가 될 때까지 반복
 <br><img width="600" alt="image" src="https://images.velog.io/images/ming/post/ab848f15-3998-4e61-b061-01458ad6f18d/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89.png" ><br>
 <br>
-
-### 시간 복잡도
-
-O(log n) 이며 최악의 경우에도 탐색 횟수가 log2n이다.
-
 
 ```java
 public static int binarySearch(int[] array, int target){ 
