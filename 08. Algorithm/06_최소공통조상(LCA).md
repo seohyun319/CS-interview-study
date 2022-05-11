@@ -95,6 +95,12 @@
 - 시간복잡도 O(MlogN)
   - : 부모 방향으로 거슬러가는 최악의 경우 O(logN) \* 모든 쿼리(M)
 
+<br />
+
+---
+
+<br />
+
 참고 링크
 
 - [이코테 강의](https://www.youtube.com/watch?v=O895NbxirM8)
