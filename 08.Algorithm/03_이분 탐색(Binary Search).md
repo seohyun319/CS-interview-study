@@ -8,7 +8,7 @@
 1. 가운데 인덱스값인 mid 값을 구함
 2. 구하는 값이 mid보다 높으면 : left = mid +1  /  구할 값이 mid보다 낮으면 : right = mid -1
 3. left >right가 될 때까지 반복
-<img width="660" alt="image" src="https://images.velog.io/images/ming/post/ab848f15-3998-4e61-b061-01458ad6f18d/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89.png" ><br>
+<br><img width="600" alt="image" src="https://images.velog.io/images/ming/post/ab848f15-3998-4e61-b061-01458ad6f18d/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89.png" ><br>
 <br>
 
 ```java
