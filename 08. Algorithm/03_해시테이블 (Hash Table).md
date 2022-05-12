@@ -18,7 +18,7 @@ Key값으로 데이터를 찾을 때 해시 함수를 1번만 수행하면 되�
 ### 예제 문제
 
 
-<br><img src="https://kjhov195.github.io/post_img/200312/image2.png" /> <br>
+<br><img src="https://images.velog.io/images/huga/post/8bb7e86e-1306-463d-83ac-67b0adeef5ec/%ED%95%B4%EC%8B%9C1.JPG" /> <br>
 
 <해결 방법>
 python의 Dictionary를 활용하여 해결할 수 있다.
