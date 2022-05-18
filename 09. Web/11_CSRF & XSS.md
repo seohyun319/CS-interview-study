@@ -4,7 +4,7 @@
 (CSRF; Cross-Site Request Forgery)
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d32344b-8a82-4d0c-8ada-47a7630f4d1d/Untitled.png)
+![img](https://user-images.githubusercontent.com/61955796/169044026-590b1a1a-39ff-4961-8a1a-b8037996dce1.png)
 
 <br>
 
@@ -56,7 +56,7 @@
 > Cross Site Scription
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83a97abb-4c38-4252-a198-fcfcef78af85/Untitled.gif)
+![img](https://user-images.githubusercontent.com/61955796/169044066-83921578-a9e1-47bb-b49c-b6d135f97043.gif)
 
 **⏩ 개념**
 
