@@ -20,6 +20,8 @@
 
 > 4xx 에러는 클라이언트의 잘못된 요청으로 서버에서 처리하지 못한 것이고, 5xx 에러는 클라이언트의 요청은 문제가 없으나, 서버에서 처리중에 서버 문제로 인해 오류가 발생한 것이라는 차이가 있다.
 
+<br><img src="https://evan-moon.github.io/static/581d5098769863da7581ecc2a09a19ed/d7ab4/browser-response.png"/><br>
+
 <br>
 
 ##### 100번대 : 조건부 응답
