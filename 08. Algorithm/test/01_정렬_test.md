@@ -42,6 +42,3 @@ Software Engineering - 정렬
 
 
 
-
-
-![image](https://user-images.githubusercontent.com/66426083/169555640-66d805b7-e6d8-4a4b-aee3-a0236410bf12.png)
