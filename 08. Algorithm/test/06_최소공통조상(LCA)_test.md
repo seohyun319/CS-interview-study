@@ -1,6 +1,6 @@
 1. 다음 그림을 보고 질문에 답하시오
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da732888-d605-4204-9934-852ac7e7548d/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/76686872/169456490-924daa2e-16b7-459e-bcc4-5fc90389148a.png)
     
     1. 5와 12의 LCA는?
     2. 9와 10의 LCA는?
