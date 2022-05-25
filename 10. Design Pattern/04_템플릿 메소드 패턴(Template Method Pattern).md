@@ -132,7 +132,7 @@ public class Main {
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8dac826-af00-44ec-b5f4-8acb17f58f4c/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/61955796/170221100-0a0244b5-8c31-4698-8358-de7bc4970ae9.png)
 
 
 <br>
