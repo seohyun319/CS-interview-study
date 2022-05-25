@@ -1,5 +1,7 @@
 # 싱글톤 패턴(Singleton pattern)
 
+<br>
+
 ### ▶️ 개념
 
 <br>
@@ -48,6 +50,8 @@
     
 - 인스턴스가 절대적으로 한 개만 존재하는 것을 보증해야 하는 상황
 
+<br>
+
 ### ▶️ 단점
 
 <br>
@@ -64,6 +68,8 @@
     
 
 따라서 반드시 싱글톤 패턴으로 구현해야 하는 경우가 아니면 지양하는 것이 좋다고 한다. 
+
+<br>
 
 ### ▶️ 예시
 
@@ -139,7 +145,7 @@ public class CarClass {
 - private static CarClass = car = new CarClass();를 통해 최초 한 번만 객체를 생성하고 이후에 getInstance 메소드를 활용해서 return 받아서 사용하는 형식이다.
 - 이때 차 객체를 누군가 이용하고 있으면 이용을 못하게 구현하여 동시성 문제를 제어했다.
 
-**![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1a0ebd-fde2-4ef2-a651-da7c4ad1bd5b/Untitled.png)**
+![Untitled (1)](https://user-images.githubusercontent.com/61955796/170219876-ea421915-a8dc-4f3a-963a-edc403b4ba8d.png)
 
 <br>
 
