@@ -15,8 +15,10 @@
 
 ``` java
 class Duck {
+	quack() { "꽥꽥" } 
 	swim() { "수영하기" }
-	display() < 모양은 서로 다르기 때문에 추상메소드
+	display()
+	fly() { "훨훨 날기" } < 추가
  }
  ```
 
