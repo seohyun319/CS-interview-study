@@ -1,0 +1,62 @@
+### **Design Pattern - Factory Method Pattern**
+
+- 객체를 만드는 부분을 Sub class에 맡겨 분리 처리하도록 캡슐화하는 패턴.
+    - 객체 생성 코드를 별도의 클래스/메서드로 분리 → 객체 생성의 변화에 대비에 유용
+    - 스트래티지 패턴, 싱글턴 패턴, 템플릿 메서드 패턴 사용
+    - 생성 패턴의 하나. (객체 생성과 조합을 캡슐화해 특정 객체가 생성되거나 변경돼도 프로그램 구조에 영향 크게 받지 않도록 유연성 제공)
+
+---
+
+> Robot (추상 클래스)
+> 
+> 
+>  ㄴ SuperRobot
+> 
+>  ㄴ PowerRobot
+> 
+> RobotFactory (추상 클래스)
+> 
+>  ㄴ SuperRobotFactory
+> 
+>  ㄴ ModifiedSuperRobotFactory
+> 
+
+즉 Robot이라는 클래스를 RobotFactory에서 생성함.
+
+- RobotFactory 클래스 생성
+
+```jsx
+public abstract class RobotFactory {
+	abstract Robot createRobot(String name);
+}
+```
+
+- SuperRobotFactory 클래스 생성
+
+```jsx
+public class SuperRobotFactory extends RobotFactory {
+	@Override
+	Robot createRobot(String name) {
+		switch(name) {
+		case "super" :
+			return new SuperRobot();
+		case "power" :
+			return new PowerRobot();
+		}
+		return null;
+	}
+}
+```
+
+생성하는 클래스를 따로 만듦
+
+그 클래스는 factory 클래스를 상속하고 있기 때문에, 반드시 createRobot을 선언해야 함.
+
+name으로 건너오는 값에 따라서, 생성되는 Robot이 다르게 설계됨.
+
+---
+
+참고 
+
+- [링크](https://gmlwjd9405.github.io/2018/08/07/factory-method-pattern.html)
+- [링크](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Design%20Pattern/Design%20Pattern_Factory%20Method.md)
