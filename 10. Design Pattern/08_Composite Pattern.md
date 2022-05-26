@@ -58,7 +58,9 @@ class Composite(Component):
     for component in self.components:
       component.fn()
 ```
+
 <br>
+
 ```
 compost1 = Composite()
 compost1.add(Leaf())
@@ -70,6 +72,7 @@ compost0.add(compost1)
 
 compost0.fn()
 ```
+
 <br>
 
 실행 결과
@@ -82,5 +85,5 @@ leaf
 ```
 <br>
 
-> 트리 구조를 이루기 때문에 트리 구조가 아주 복잡할 때 루트에서 함수 하나만 호출하면 Composite 패턴을 따라 leaf의 함수가 점화된다.
+> 트리 구조를 이루기 때문에 트리 구조가 아주 복잡할 때 루트에서 함수 하나만 호출하면 Composite 패턴을 따라 leaf의 함수가 점화된다는 장점을 가진다.
 <br>
